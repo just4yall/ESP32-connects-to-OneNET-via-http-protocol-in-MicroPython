@@ -8,11 +8,11 @@ import time
 import json
 from machine import Pin,Timer,ADC
 
-DEVICE_ID='698146184'                                              #设备ID
-API_KEY='w24XDwnqukFiV0YUXdpIEpJLqZY='                             #API_KEY
+DEVICE_ID='replace with your DeviceID'                                              #设备ID
+API_KEY='replace with your API-key'                             #API_KEY
 
-SSID="WWR"                                                         #WIFI名称
-PASSWORD="11211037"                                                #WIFI密码
+SSID="SSID"                                                         #WIFI名称
+PASSWORD="passwd"                                                #WIFI密码
 wlan=None
 s=None
 
